@@ -1,0 +1,57 @@
+body {
+text-align: center;
+  background-image: radial-gradient(circle, #58A1EB, #29FFCB, #257494);
+}
+
+
+
+
+#next-question
+#submit-answer
+#button_container
+ {
+text-align: center;
+
+}
+
+
+#begin-game {
+transform: translateY(25em);
+}
+
+
+
+
+.hide 	{
+  display: none;
+
+
+}
+
+.active-slide {
+  background-color: #2162DB;
+  width: 24em;
+  height: 25em;
+  border-radius: 50%;
+  border: 1em solid white;
+  display: inline-block;
+  text-align: center;
+  transform: translateY(5em);
+
+
+}
+
+
+
+.question-property {
+	font-size: 2em;
+	color: white;
+	line-height: 2em;
+}
+
+.answers {
+  color: white;
+  font-size: 1em;
+  line-height: 1.5em;
+
+}
