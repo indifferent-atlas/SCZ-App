@@ -3,6 +3,28 @@ text-align: center;
   background-image: radial-gradient(circle, #58A1EB, #29FFCB, #257494);
 }
 
+.active-slide {
+  background-color: #2162DB;
+  width: 100%;
+//  height: 50em;
+  //border-radius: 50%;
+//  border: 1em solid white;
+  //display: inline-block;
+  text-align: center;
+
+  transform: translateY(35%);
+
+
+
+
+
+}
+
+.active-slide:before {
+    content: "";
+    display: block;
+    padding-top: 25%;
+}
 
 
 
@@ -15,8 +37,21 @@ text-align: center;
 }
 
 
+
+#button_container {
+  position: relative;
+  top: 50%;
+   transform: translateY(-50%);
+
+}
+
 #begin-game {
 transform: translateY(25em);
+font-family: font-family: 'Open Sans', sans-serif;
+}
+
+button span{
+  display : block;
 }
 
 
@@ -28,18 +63,7 @@ transform: translateY(25em);
 
 }
 
-.active-slide {
-  background-color: #2162DB;
-  width: 24em;
-  height: 25em;
-  border-radius: 50%;
-  border: 1em solid white;
-  display: inline-block;
-  text-align: center;
-  transform: translateY(5em);
 
-
-}
 
 
 

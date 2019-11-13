@@ -41,8 +41,8 @@ const game = new Game(0);
 document.getElementById('begin-game').addEventListener('click',
 function() {
     game.questions[game.questionIndie].drawSlide();
-    document.getElementById('begin-game').classList.add('hide');
-    document.getElementById('button_container').classList.remove('hide');
+    document.getElementById('begin-game').style.display='none';
+
 
 
     //question.createSlide(questions.length);
@@ -55,8 +55,7 @@ game.questions[game.questionIndie].valueChecked();
 //  game.questions[game.questionIndie].displaySlide();
   //game.changeIndie();
   game.questions[game.questionIndie].drawSlide();
-    document.getElementById('submit-answer').classList.add('hide');
-    document.getElementById('next-question').classList.remove('hide');
+
   });
 
 document.getElementById('next-question').addEventListener('click', function() {

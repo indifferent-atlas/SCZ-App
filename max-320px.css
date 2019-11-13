@@ -1,0 +1,79 @@
+
+body {
+  text-align: center;
+  background: radial-gradient(1.5em 6.28571em at 1.95em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(1.5em 6.28571em at -0.45em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 1.5em 5.5em, radial-gradient(2.3em 4.57143em at 2.99em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(2.3em 4.57143em at -0.69em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 2.3em 4em, radial-gradient(3.5em 6.28571em at 4.55em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(3.5em 6.28571em at -1.05em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 3.5em 5.5em, radial-gradient(#15ffa5, #00ced1);
+  background-color: mediumspringgreen;
+  background-size: 1.5em 11em, 1.5em 11em, 2.3em 8em, 2.3em 8em, 3.5em 11em, 3.5em 11em, 100% 100%;
+  background-repeat: repeat;
+}
+
+
+#slide_background {
+
+}
+
+.active-slide {
+  background-color: #FEFFEA;
+  width: 50%;
+  height: 70%;
+  border-radius: 2em;
+  display: inline-block;
+  //transform: translateX(20%) translateY(20%);
+  position: absolute;
+  right: 25%;
+  top: 15%;
+
+//  transform: translateY(60%);
+}
+
+
+
+
+
+
+
+#button_container {
+//display: none;
+
+}
+.active_button {
+top: 16em;
+position: relative;
+display: none;
+font-family: 'Open Sans', sans-serif;
+}
+#begin-game {
+transform: translateY(11rem);
+font-family: 'Open Sans', sans-serif;
+font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+.question-property {
+	font-size: 1em;
+	color: black;
+//	line-height: 1em;
+  margin: 0 auto;
+  width: 80%;
+  position: relative;
+  top: 2em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.answers {
+  color: black;
+  font-size: 1em;
+//  line-height: 1.5em;
+  position: relative;
+  top: 3em;
+  font-family: 'Open Sans', sans-serif;
+
+}

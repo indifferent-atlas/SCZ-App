@@ -5,26 +5,36 @@
     <meta-charset = 'utf-8'>
 
       <title>Quiz</title>
-      <link rel = 'stylesheet' type = 'text/css' href = 'style.css'>
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+      <meta name='viewport' content='width=device-width, initial-scale=1'>
+      <!--<link rel = 'stylesheet' type = 'text/css' href = 'style.css'> -->
+      <link rel='stylesheet' href='max-320px.css' >
       </head>
 
     <body>
 
 
-<button id = 'begin-game'>Start Game</button>
+<button id = 'begin-game'><span><span>Start Game</span></span></button>
 
 
-<div id = 'button_container' class = 'hide'>
-<button id = 'next-question'>Next Question</button>
-<button id = 'submit-answer'>Submit</button>
+
+<div id = 'slide_background'>
 </div>
+
+  <div id = 'button_container' class= 'active_button'>
+
+  <button id = 'next-question'>Next Question</button>
+  <button id = 'submit-answer'>Submit</button>
+  </div>
+
+
 
 
 <!--<button id = 'next-question' class = 'hide'>Next Question</button>-->
 <!--<button id = 'submit-answer' class = 'hide'>Submit</button>-->
 
-<div id = 'slide-background'>
-</div>
+
+
       <script src = 'Game.js'></script>
       <script src = 'Question.js'></script>
       <script src = 'Slide.js'></script>

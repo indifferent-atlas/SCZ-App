@@ -26,8 +26,9 @@ set active(newActive) {
 
 
 
-    document.getElementById('slide-background' ).classList.add('active-slide');
+    document.getElementById('slide_background').classList.add('active-slide');
 
+document.getElementById('button_container').style.display = 'initial';
     //appendChild( prompslide );
 
   //  prompslide.classList.add('active-slide');
@@ -43,8 +44,8 @@ ${this.choices[i]}
 </label>`)};
 
 output.push(`<p class = "answers">${fillup.join('')}</p>`)
-document.getElementById('slide-background').innerHTML = fillin;
-document.getElementById('slide-background').innerHTML += output;
+document.getElementById('slide_background').innerHTML = fillin;
+document.getElementById('slide_background').innerHTML += output;
 
 
   }
@@ -53,10 +54,9 @@ document.getElementById('slide-background').innerHTML += output;
   displaySlide() {
     const currentSlide = document.querySelector('.active-slide');
   //  const submitButton = document.querySelector('#submit-answer');
-    currentSlide.classList.add('hide');
   //  submitButton.classList.remove('hide') ;
 
-    currentSlide.classList.remove('active-slide');
+
   }
 
   valueChecked() {
